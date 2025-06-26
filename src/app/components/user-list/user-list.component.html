@@ -1,0 +1,11 @@
+<section>
+  <h2>Users</h2>
+  <button (click)="newUser()">New User</button>
+  <ul>
+    <li *ngFor="let user of users$ | async">
+      {{ user.name }} ({{ user.email }})
+      <button (click)="editUser(user.id)">Edit</button>
+      <button (click)="{}">Delete</button>
+    </li>
+  </ul>
+</section>

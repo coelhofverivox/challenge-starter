@@ -1,0 +1,21 @@
+<section>
+  <h2>{{ userId ? 'Edit' : 'New' }} User</h2>
+  <form [formGroup]="form" (ngSubmit)="submit()">
+    <label>Name:</label>
+    <input formControlName="name" />
+    <div *ngIf="form.get('name')?.invalid && form.get('name')?.touched">
+      Name is required
+    </div>
+
+    <label>Email:</label>
+    <input formControlName="email" />
+    <div *ngIf="form.get('email')?.invalid && form.get('email')?.touched">
+      Valid email is required
+    </div>
+
+    <button type="submit" [disabled]="form.invalid">
+      {{ userId ? 'Update' : 'Create' }}
+    </button>
+    <button type="button" (click)="cancel()">Cancel</button>
+  </form>
+</section>
