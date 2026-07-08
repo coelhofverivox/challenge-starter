@@ -42,7 +42,7 @@ Your primary goal is to make all app functions work as expected:
 - [ ] Edit user data functionality
 - [ ] Delete user functionality
 - [ ] Display the correct number of users
-- [ ] Fix the year in the footer
+- [ ] What other changes would you do?
 
 To look at the possible final result, check `result.png` file in root of the project.
 
