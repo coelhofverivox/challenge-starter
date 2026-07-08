@@ -1,59 +1,67 @@
-# AngularChallengeStarter
+# Frontend Code Challenge 🚀
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
+Welcome to our Frontend Interview Code Challenge! We're excited to work with you on this project.
 
-## Development server
+## 💡 Interview Guidelines
 
-To start a local development server, run:
+### Feel Free to Ask Questions!
 
-```bash
-ng serve
-```
+Don't hesitate to ask about:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Project requirements
+- Technical specifications
+- Clarifications on any task
+- Best practices or preferences
 
-## Code scaffolding
+### Think Out Loud
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- Explain your actions and reasoning as you work
+- Share your ideas and approach
+- Discuss trade-offs and alternatives
+- Silent coding is less valuable than collaborative problem-solving
 
-```bash
-ng generate component component-name
-```
+### Don't Worry About Perfection
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- It's perfectly fine if you don't solve everything
+- **The thinking process and discussion are more important than completion**
+- Focus on demonstrating your problem-solving approach
 
-```bash
-ng generate --help
-```
+## 🎯 Challenge Goals
 
-## Building
+This challenge is designed to assess your frontend development skills through:
 
-To build the project run:
+- **Problem Solving**: Identify and fix issues in the existing application
+- **Code Improvement**: Suggest and implement enhancements to make the code better
+- **Technical Discussion**: Share your thought process and reasoning
 
-```bash
-ng build
-```
+## 📋 Main Issues to Fix
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Your primary goal is to make all app functions work as expected:
 
-## Running unit tests
+- [ ] Load a list of users
+- [ ] Edit user data functionality
+- [ ] Delete user functionality
+- [ ] Display the correct number of users
+- [ ] Fix the year in the footer
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+To look at the possible final result, check `result.png` file in root of the project.
 
-```bash
-ng test
-```
+## 🌟 Additional Tasks (Bonus)
 
-## Running end-to-end tests
+If you have time, try implementing some of these enhancements:
 
-For end-to-end (e2e) testing, run:
+- [ ] Add restore button to recover the last deleted user
+- [ ] Add input field for filtering users by name/email
+- [ ] Implement sorting of users by name/email
+- [ ] Fetch users from external API (e.g., `https://jsonplaceholder.typicode.com/users`)
+- [ ] Create a pipe to partially hide user emails with asterisks (e.g., `te*******@gmail.com`)
 
-```bash
-ng e2e
-```
+---
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+### Have Fun! 🎉
 
-## Additional Resources
+Enjoying the process is considered a bonus - let's make this an engaging experience!
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+**Good luck and happy coding!** 🍀
+
+We're looking forward to seeing your approach and discussing your solutions together.
