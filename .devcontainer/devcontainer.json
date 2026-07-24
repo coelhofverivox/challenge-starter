@@ -1,0 +1,7 @@
+{
+  "name": "Frontend Code Challenge",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "updateContentCommand": "npm install",
+  "postAttachCommand": "npm start",
+  "forwardPorts": [4200]
+}
